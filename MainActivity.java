@@ -11,15 +11,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 {
-    Spinner spinner;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        spinner = findViewById(R.id.spinner);
+        Spinner spinner = findViewById(R.id.spinner);
 
         String spinner_items[] = new String[]{"Android","Python","PHP","C","Java","C++","ANdroid Studio"};
 

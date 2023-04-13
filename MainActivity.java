@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onNothingSelected(AdapterView<?> adapterView)
             {
-                Toast(mainactivity.this,text:"nothing is selected");
+
             }
         });
     }
